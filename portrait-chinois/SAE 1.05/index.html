@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Chinois</title>
+    <link rel="shortcut icon" href="Images/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@400;500;700&family=Permanent+Marker&family=Poppins:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98633f0b27.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="navbar-container">
+            <a href="#hero" class="logo" >
+                <img src="Images/PortraitChinoisLogo.svg" alt="logo">
+                <span class="navbar-text" lang="zh">中国人像</span>
+            </a>
+            <div class="nav-links">
+                <div class="dropdown">
+                    <button class="dropbtn">Si j'étais <i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#jeu" aria-label="Aller à la section jeu vidéo"><span>Un jeu</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#saison" aria-label="Aller à la section saison"><span>Une saison</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#couleur" aria-label="Aller à la section couleur"><span>Une couleur</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#anime" aria-label="Aller à la section personnage d'anime"><span>Un perso. d'anime</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#fruit" aria-label="Aller à la section fruit"><span>Un fruit</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#pays" aria-label="Aller à la section pays"><span>Un pays</span> <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#paysage" aria-label="Aller à la section paysage"><span>Un paysage</span> <i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+                
+                <div class="credits">
+                    <a href="#footer" id="creditsLink">Crédits</a>
+                </div>
+                <a href="#form-container" class="proposer-theme">
+                    <button>
+                        <span>Proposer un thème</span>
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="liste-analogies">
+        <section class="hero" id="hero">
+            <img src="Images/Portrait-C-bg-1.svg" data-speedx="0.1" data-speedy="0.1" data-speedz="0" data-rotation="0"
+                alt="" class="portrait-parallax portrait-bg1">
+            <img src="Images/Portrait-C-bg-2.svg" data-speedx="0.07" data-speedy="0.07" data-speedz="0.1" data-rotation="0"
+                alt="" class="portrait-parallax portrait-bg2">
+            <div data-speedx="0.03" data-speedy="0.03" data-speedz="0.5" data-rotation="0.5"
+                class="portrait-parallax titre-hero">
+                <h1>Portrait</h1>
+                <h2>Chinois</h2>
+            </div>
+            <img src="Images/Portrait-C-bg-3.svg" data-speedx="0.05" data-speedy="0.05" data-speedz="0.2"
+                data-rotation="0.05" alt="" class="portrait-parallax portrait-bg3">
+            <img src="Images/Portrait-C-bg-4.svg" data-speedx="0.01" data-speedy="0.01" data-speedz="0.2"
+                data-rotation="0.1" alt="" class="portrait-parallax portrait-bg4">
+            <div id="gradient-overlay" class="gradient-overlay"></div>
+        </section>
+    </main>
+
+    <div class="form-container" id="form-container">
+        <form id="formulaire">
+            <h4>Proposer un thème</h4>
+    
+            <label for="mail">Mail<span class="star-required">*</span></label>
+            <input type="email" placeholder="mail@exemple.com" name="mail" id="mail" required aria-describedby="info-mail">
+    
+            <div id="info-mail" class="info-message">Veuillez saisir votre adresse e-mail.</div>
+    
+            <label for="analogie">Si j'étais<span class="star-required">*</span></label>
+            <input type="text" name="analogie" placeholder="Ex : Un animal" id="analogie" required aria-describedby="info-analogie">
+    
+            <div id="info-analogie" class="info-message">Veuillez saisir une analogie.</div>
+    
+            <label for="valeur-analogie">Je serais<span class="star-required">*</span></label>
+            <input type="text" name="valeur-analogie" placeholder="Ex : Un lion" id="valeur-analogie" required aria-describedby="info-serais">
+    
+            <div id="info-serais" class="info-message">Veuillez saisir une valeur analogie.</div>
+    
+            <label for="description">Image<span class="star-required">*</span></label>
+            <input type="text" name="description" placeholder="URL" id="description" required aria-describedby="info-description">
+    
+            <div id="info-description" class="info-message">Veuillez fournir l'URL de l'image associée à votre thème.</div>
+    
+            <label for="pourquoi">Pourquoi ?<span class="star-required">*</span></label>
+            <textarea placeholder="Parce que" id="pourquoi" aria-describedby="info-pourquoi"></textarea>
+    
+            <div id="info-pourquoi" class="info-message">Veuillez expliquer pourquoi vous avez choisi ce thème.</div>
+
+            <p class="legend">Les champs marqués d'un <span class="star-required">*</span> sont obligatoires.</p>
+    
+            <input type="submit" value="Envoyer" id="boutonEnvoyer"> 
+        </form>
+    </div>
+    
+    
+
+
+    <section class="section-internaute"></section>   
+
+    <footer id="footer">
+        <button id="creditsButton">Crédits</button>
+
+        <div id="creditsPopup" class="popup">
+            <div class="popup-content">
+                <span id="closeButton" class="close" onclick="closePopup()">&times;</span>
+                <h3>ÉDITEUR</h4>
+
+                <p>Aryan Inc, étudiant de l’Université Gustave Eiffel<br>
+                    Hébergeur : Université Gustave Eiffel </p>
+                    
+                <h3>SOURCES</h2>
+                <a href="https://fr.freepik.com/vecteurs-libre/temple-japonais-entoure-nature_9979489.htm#query=chine&position=13&from_view=search&track=sph&uuid=bfa94a9e-f28e-4c3d-bb3d-af898f6f6971">Image 1</a>
+                <a href="https://commons.wikimedia.org/wiki/File:Minecraft-creeper-face.jpg">Image 2</a>
+                <a href="https://fr.freepik.com/photos-gratuite/feuilles-automne-seches-dans-nature_59981555.htm#query=automne&position=47&from_view=search&track=sph&uuid=5bc52dc6-8c53-415e-a0c0-5d800e6667ed">Image 3</a>
+                <a href="https://fr.freepik.com/vecteurs-libre/red-grunge_826647.htm#query=rouge&position=8&from_view=search&track=sph&uuid=20f90e69-7946-49d9-9fa5-be1b526fff5d"></a>
+                <a href="https://www.deviantart.com/constanza-chan14/art/hxh-pilot-1998-435298188">Image 4</a>
+                <a href="https://fr.freepik.com/vecteurs-libre/mangues_4388655.htm#query=mangue&position=4&from_view=search&track=sph&uuid=cd599a27-5e36-4eb2-aa0e-c3082ee8c883">Image 5</a>
+                <a href="https://fr.freepik.com/vecteurs-libre/carte-dessinee-main-inde_4714992.htm#query=india&position=21&from_view=search&track=sph&uuid=4fb46c16-4ee7-44b1-be17-e13a41422888">Image 6</a>
+                <a href="https://fr.freepik.com/vecteurs-libre/fond-galaxie-etoiles-realistes_14063401.htm#query=ciel%20%C3%A9toil%C3%A9&position=4&from_view=search&track=ais&uuid=99e9bfd7-fe04-4551-a86f-834806bcf71e">Image 7</a>
+                
+                <p>Toutes les images utilisées sur cette page sont libres de droit pour usage personnel, et ne feront jamais l'objet d'une commercialisation.</p>
+
+                <h3> LÉGISLATION RELATIVE AUX DONNÉES À CARACTÈRE PERSONNEL</h3>
+                <p>Le formulaire permettant la création d’une analogie personnalisée recueille votre adresse de courriel et votre adresse IP. Pour toute question portant sur la collecte ou le traitement de vos données à caractère personnel par l’UPEM, vous pouvez saisir la personne responsable du traitement des données qui est : Philippe Gambette (philippe.gambette@univ-eiffel.fr). Les fichiers détenus par l'UPEM qui comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation.</p>
+                <p>©2023 Tous droits réservés par Aryan Inc.</p>
+            </div>
+        </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="data.js"></script>
+</body>
+
+</html>

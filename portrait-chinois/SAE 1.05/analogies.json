@@ -1,0 +1,66 @@
+[
+    {
+      "id": "jeu",
+      "class": "div-jeu",
+      "analogies": "un jeu vidéo",
+      "valeursAnalogies": "Minecraft",
+      "description": "Explorant un monde infini de possibilités et de créativité.",
+      "image": "Images/Minecraft.png",
+      "alt": "Une image qui représente le jeu Minecraft"
+    },
+    {
+      "id": "saison",
+      "class": "div-saison",
+      "analogies": "une saison",
+      "valeursAnalogies": "l'automne",
+      "description": "Peint en couleurs chaudes et nostalgiques.",
+      "image": "Images/automne.jpg",
+      "alt": "Une image qui représente l'automne"
+    },
+    {
+      "id": "couleur",
+      "class": "div-couleur",
+      "analogies": "une couleur",
+      "valeursAnalogies": "le rouge",
+      "description": "symbole de l'énergie et de la détermination qui alimentent mes rêves.",
+      "image": "Images/rouge.jpg",
+      "alt": "Une image qui représente couleur rouge"
+    },
+    {
+      "id": "anime",
+      "class": "div-anime",
+      "analogies": "un personnage d’anime",
+      "valeursAnalogies": "Gon Freecss",
+      "description": "Explorant le monde avec une innocence captivante.",
+      "image": "Images/gohn.jpg",
+      "alt": "Une image qui représente personnage Gon Freecss d'une animation japonaise ''HunterXHunter'"
+    },
+    {
+      "id": "fruit",
+      "class": "div-fruit",
+      "analogies": "un fruit",
+      "valeursAnalogies": "une mangue",
+      "description": "Gagnant en richesse et en profondeur au fil des expériences.",
+      "image": "Images/fruit.svg",
+      "alt": "Une image qui représente une mangue"
+    },
+    {
+      "id": "pays",
+      "class": "div-pays",
+      "analogies": "un pays",
+      "valeursAnalogies": "l'Inde",
+      "description": "vibrant de diversité culturelle et spirituelle, où chaque coin raconte une histoire belle",
+      "image": "Images/Inde.svg",
+      "alt": "Une image qui représente l'Inde"
+    },
+    {
+      "id": "paysage",
+      "class": "div-paysage",
+      "analogies": "un paysage",
+      "valeursAnalogies": "un ciel étoilé",
+      "description": "éclairant la voie de l'imagination",
+      "image": "Images/cielEtoiles.jpg",
+      "alt": "Une image qui représente un ciel étoilé"
+    }
+  ]
+  

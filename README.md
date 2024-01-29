@@ -1,0 +1,3 @@
+https://etudiant.u-pem.fr/~aryan.inc/portrait-chinois/SAE%201.05/
+Pour XAMPP, j'ai installé le logiciel apache et je me suis rendu dans "explorer" --> "htdocs", c'est là où j'ai déposé mon dossier "Portrait Chinois". Suite a ça, j'ai desormais accès à mon site web sur internet grâce au lien : http://localhost/Portrait%20Chinois/
+https://docs.google.com/spreadsheets/d/1-O9VZvbgBwn0xuLqZNmW_2Hh2ESgDGvAksT2II63krQ/edit?usp=sharing
